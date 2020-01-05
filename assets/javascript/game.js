@@ -42,11 +42,13 @@ $(document).ready(function() {
         score = 0;
         $("#scoreDisplay").text(score);
         $("#ranNum-text").text(random)
+        console.log("__________________________")
         console.log("Random number: " + random)
         console.log("Red buttom: " + ranNum1)
         console.log("Blue button: " + ranNum2)
         console.log("Yellow button: " + ranNum3)
         console.log("Green button: " + ranNum4)
+        
     }
     
 
